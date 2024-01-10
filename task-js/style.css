@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div h1 {
+  font-size: 40px;
+}
+div form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+div form #name {
+  padding: 10px 50px;
+  border: none;
+  border-bottom: 2px solid orange;
+  margin-bottom: 20px;
+  width: 150px;
+}
+
+div form #name:focus {
+  outline: none;
+}
+div form #email {
+  padding: 10px 50px;
+  border: none;
+  border-bottom: 2px solid orange;
+  margin-bottom: 20px;
+  width: 150px;
+}
+div form #email:focus {
+  outline: none;
+}
+div form #password {
+  padding: 10px 50px;
+  border: none;
+  border-bottom: 2px solid orange;
+  margin-bottom: 20px;
+  width: 150px;
+}
+div form #password:focus {
+  outline: none;
+}
+div form .submit {
+  padding: 10px 20px;
+  border: none;
+  background-color: orange;
+  color: white;
+}
